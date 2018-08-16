@@ -1,34 +1,84 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<div class="fluid-container">
+  <div class="row" id="header"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/assets/images/BTA.png" height="60px" >  
+    <div class="col">
+     <h3 class="heading">Bus Ticket agregator</h3>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Login</button>
+    </div> 
+  </div>
+</div>
 
- <header class="header">
+<div class="form-check-inline">
+  <label class="form-check-label" for="One Way">
+    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>One Way  
+  </label>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <label class="form-check-label" for="Round trip">
+    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Round Trip
+  </label>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Source
+    </div>
+    <div class="col">
+      Destination
+    </div>    
+    <div class="col">
+      Select Departure Date
+    </div>
+    <div class="col">
+      Select Arrival Date
+    </div>
+    <div class="col">        
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <input type="text" name="source" value="Enter source">
+    </div>
+    <div class="col">
+      <input type="text" name="destination" value="Enter destination">
+    </div>    
+    <div class="col">
+      <input type="date" name="departure" >
+    </div>
+    <div class="col">
+       <input type="date" name="arrival" disabled id="arrival"  >
+    </div>
+    <div class="col">
+      <button name="Submit" class="btn">Search</button>
+    </div>
+  </div>
+</div>
  
-  &nbsp;&nbsp;
-   <img src="/assets/images/BTA.png" height="60px" style="display: inline;">
-   <h3>&nbsp; Bus Ticket agregator</h3>
-   <button name="login" value="Login" id="btn" onclick="open1();">Login</button>
 
- </header>
-
- 
- <section class="section">
-   
- </section>
-
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4>Login</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Login Details Here</p>
+      </div>     
+    </div>    
+  </div>
+</div>
 
  <footer class="footer" >
    <br>
    © 2018 Tricon
  </footer>
- <div id="myModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>Some text in the Modal..</p>
-    </div>
-  
-  </div>
-
-
 
 
