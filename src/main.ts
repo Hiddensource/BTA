@@ -10,3 +10,13 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+  document.onreadystatechange=function(){
+    if(document.readyState==="complete"){
+  var b=document.getElementById("btn");
+  var a=document.getElementById("myModal");
+  b.addEventListener("click",function(){
+     a.style.display="block";
+     
+  });    
+}}
+
