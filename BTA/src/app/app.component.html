@@ -6,7 +6,7 @@
     <div class="col">
      <h3 class="heading">Bus Ticket agregator</h3>
     </div>
-    <div class="col">
+    <div class="col" >
       <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Login</button>
     </div> 
   </div>
@@ -23,7 +23,7 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <!-- <div class="row">
     <div class="col">
       Source
     </div>
@@ -38,23 +38,32 @@
     </div>
     <div class="col">        
     </div>
-  </div>
+  </div> -->
 
   <div class="row">
-    <div class="col">
+    <div class="col-md-3">
+      Enter Source: <br>
       <input type="text" name="source" value="Enter source">
     </div>
-    <div class="col">
+    <div class="col-md-3">
+      Enter Destination: <br>
       <input type="text" name="destination" value="Enter destination">
     </div>    
-    <div class="col">
+    <div class="col-md-3">
+      Departure Date: <br>
       <input type="date" name="departure" >
     </div>
-    <div class="col">
+    <div class="col-md-3">
+      Arrival Date: <br>
        <input type="date" name="arrival" disabled id="arrival"  >
     </div>
-    <div class="col">
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+        <br>
       <button name="Submit" class="btn">Search</button>
+      <br>
+      &nbsp;
     </div>
   </div>
 </div>
