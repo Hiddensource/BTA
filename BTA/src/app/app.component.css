@@ -60,6 +60,7 @@ h3{
     position: fixed;
     top:100px;
     height: 50vh;
+    width: 50vw;
 }
 .container{
     position: absolute;
